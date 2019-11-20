@@ -1,6 +1,6 @@
 {
   "name": "qeetup-app-server",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Application template for server GraphQL projects and implementation of application for Qeetup about GraphQL",
   "repository": "git@github.com:qest-cz/qeetup-app-server.git",
   "author": "Jindřich Máca <jindrich.maca@qest.cz>",
