@@ -2,6 +2,7 @@ import { InMemoryDataSource } from '@container/data-sources/in-memory';
 import { Comment, CommentInput, Song, Toggle } from '@container/schema';
 
 export class SongsDataSource extends InMemoryDataSource {
+    async getById(songId: string) {
         // TODO: This is a TypeScript workaround and we are not checking here possible undefined song.
         return songs[songs.findIndex((song) => song.id === songId)];
     }
