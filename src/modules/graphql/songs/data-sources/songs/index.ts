@@ -43,9 +43,10 @@ export class SongsDataSource extends InMemoryDataSource {
 
 const songs: Song[] = [
     {
-        id: '5da741d986a655b5276c4eee',
+        id: '5GQyYSGz8bymILpekzEy7L',
         artist: 'September 87',
         name: 'Bad Dream Baby',
+        audio: 'BadDreamBaby',
         listens: 145202,
         isLiked: true,
         cover: 'https://i.vimeocdn.com/video/526078435_1280x720.jpg',
@@ -71,7 +72,37 @@ const songs: Song[] = [
         ],
     },
     {
-        id: '5da741e8da9940fbbececa07',
+        id: '4loXMor75kKVBB03ygwDlh',
+        name: 'Los Angeles',
+        artist: 'The Midnight',
+        listens: 34000,
+        isLiked: true,
+        cover:
+            'https://scontent-prg1-1.xx.fbcdn.net/v/t1.0-9/44883276_2160020650889409_8949487783479607296_n.jpg?_nc_cat=107&_nc_oc=AQnVcG20lk3-m112Suw1y55PovPGTdDmScc_ENTqVQOBrZTl-giFBV71MEzLVvjl8rbazDD0qK55rK6859UkL4AI&_nc_ht=scontent-prg1-1.xx&oh=0e884e2a8643364267b2d42968551401&oe=5E255286',
+        description: 'Placeholder',
+        audio: 'LosAngeles',
+        tags: [
+            {
+                isImportant: true,
+                value: 'New Synth Wave',
+            },
+            {
+                isImportant: true,
+                value: '🔥 Popular',
+            },
+            {
+                value: 'Electronic',
+            },
+            {
+                value: 'Retro',
+            },
+            {
+                value: 'Outrun',
+            },
+        ],
+    },
+    {
+        id: '0E3HnGJSMplqBSYGsh2exH',
         name: 'Running in the night',
         artist: 'FM-84',
         listens: 32000,
@@ -99,7 +130,7 @@ const songs: Song[] = [
         ],
     },
     {
-        id: '5da741f42bbddc592040d335',
+        id: '7GonnnalI2s19OCQO1J7Tf',
         name: 'Kickstart my heart',
         artist: 'Mötley Crüe',
         listens: 1030002,
@@ -123,8 +154,8 @@ const songs: Song[] = [
         ],
     },
     {
-        id: '5da74205276ebdae0497fed8',
-        name: 'Dark side of the moon',
+        id: '4rQYDXfKFikLX4ad674jhg',
+        name: 'Speak To Me',
         artist: 'Pink Floyd',
         cover: 'https://images-na.ssl-images-amazon.com/images/I/81aTawcGdmL._SL1500_.jpg',
         listens: 8398893,
@@ -141,7 +172,7 @@ const songs: Song[] = [
         ],
     },
     {
-        id: '5da742155e2387a8c1c408d8',
+        id: '0hUjW8abCqrRDzZhNDY887',
         name: 'Mind of a Beast',
         artist: 'The Glitch Mob',
         cover: 'https://consequenceofsound.net/wp-content/uploads/2014/01/91vaxjhtjjl-_sl1500_.jpg?quality=80&w=807',
